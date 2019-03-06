@@ -13,7 +13,7 @@ class MarkdownTokenParser extends \Twig_TokenParser
     /**
      * {@inheritdoc}
      */
-    public function parse(\Twig_Token $token)
+    public function parse(\Twig\Token $token)
     {
         $lineno = $token->getLine();
 
